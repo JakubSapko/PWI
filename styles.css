@@ -1,13 +1,16 @@
+/* Normalization */
 * {
     padding: 0;
     margin: 0;
 }
 
+/* Set up flex on whole body */
 body {
     display: flex;
     flex-direction: column;
 }
 
+/* Navbar-related styles */
 .navbar {
     width: 100vw;
     height: 10vh;
@@ -34,6 +37,8 @@ a, a:visited {
     color:rgba(11, 161, 184, 0.683) 
 }
 
+
+/* Site's main section styles */
 .mainSection {
     width: 100vw;
     height: 80vh;
@@ -92,6 +97,7 @@ a, a:visited {
     margin-top: 5rem;
 }
 
+/* Footer-related styles */
 .footer {
     height: 10vh;
     align-self: flex-end;

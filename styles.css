@@ -68,15 +68,18 @@ a, a:visited {
 .photoContainer {
     max-width: fit-content;
     padding: 2rem;
+    width: 30%;
+    margin-left: 5rem;
 }
 
 .container {
     padding: 2rem;
+    margin-left: 5rem;
     display: flex;
     flex-direction: column;
     
     height: auto;
-    width: auto;
+    width: 70%;
     align-items: stretch;
 }
 

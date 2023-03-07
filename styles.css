@@ -30,13 +30,13 @@ a, a:visited {
     color: black;
 }
 
-.navbarItem:hover {
+.navbarItem:hover, a:hover {
     color:rgba(11, 161, 184, 0.683) 
 }
 
 .mainSection {
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
 
     display: flex;
     flex-direction: row;
@@ -90,4 +90,10 @@ a, a:visited {
 .textSection {
     max-height: min-content;
     margin-top: 5rem;
+}
+
+.footer {
+    height: 10vh;
+    align-self: flex-end;
+    margin: auto;
 }
